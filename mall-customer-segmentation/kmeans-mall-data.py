@@ -17,7 +17,7 @@ def _():
 
 @app.cell
 def _(pl):
-    mall_customers_df = pl.read_csv('data/Mall_Customers.csv')
+    mall_customers_df = pl.read_csv('./mall-customer-segmentation/data/Mall_Customers.csv')
     return (mall_customers_df,)
 
 
